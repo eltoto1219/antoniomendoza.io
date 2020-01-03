@@ -5,5 +5,5 @@
     <title>Antonio Mendoza</title>
   </head>
   <body>
-	<img src="http://placehold.it/400x200" class="user">
+	huh
   </body>
