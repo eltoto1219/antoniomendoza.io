@@ -3,21 +3,21 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-
-.test {
-  background-image: url('profilepic.jpg');
-}
-
-.user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
   object-fit: cover;
+}
+
+.column_small {
+  float: left;
+  width: 20%;
+}
+
+.column_big {
+  float: left;
+  width: 65%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
